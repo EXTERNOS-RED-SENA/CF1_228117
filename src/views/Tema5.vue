@@ -19,9 +19,10 @@
         img.img-t.img-a(src='@/assets/template/images/t5/2.png')
     
     Separador 
+
     #t_5_1.titulo-segundo.color-acento-botones
       h2 5.1	Concepto de inferencia estadística y su relevancia
-    p El proceso estadístico generalmente se divide en tres grandes fases:
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2
         .row.justify-content-center.align-items-center
@@ -45,7 +46,7 @@
                     span
                       b Toma de decisiones:
                       |  la inferencia es clave para tomar decisiones basadas en datos, como en investigaciones científicas, estudios de mercado, o procesos industriales de control de calidad.
-                      | Ejemplo: En una empresa que quiere conocer la satisfacción de los clientes, la inferencia estadística permite estimar la satisfacción global basándose en una encuesta a una muestra representativa de clientes.
+                      | Ejemplo: en una empresa que quiere conocer la satisfacción de los clientes, la inferencia estadística permite estimar la satisfacción global basándose en una encuesta a una muestra representativa de clientes.
       .col-lg-4.order-lg-2.order-1
         img.img-t.img-a(src='@/assets/template/images/t5/3.png')
     Separador 
@@ -126,7 +127,7 @@
                 i.fas.fa-check.v1
                 span
                   b Desventajas:
-                  |  Más complejo de calcular y comunicar que la estimación puntual.
+                  |  más complejo de calcular y comunicar que la estimación puntual.
       
     .row.justify-content-center
       .col-lg-10.my-3
@@ -145,12 +146,8 @@
       .col-lg-3
         img.img-a.img-t(src='@/assets/template/images/t5/8.png' alt='')
       .col-lg-9
-        p
-          b Hipótesis nula (H₀):
-          | es la afirmación que se asume verdadera al comienzo de la prueba. Normalmente, la hipótesis nula es una afirmación de "no efecto" o "no diferencia". Por ejemplo, en un estudio médico, la hipótesis nula podría ser que un nuevo tratamiento no es más efectivo que el tratamiento actual.
-        p 
-          b Hipótesis alternativa (H₁): 
-          | Es la afirmación opuesta a la hipótesis nula. Es lo que el investigador espera demostrar. En el caso del tratamiento médico, la hipótesis alternativa sería que el nuevo tratamiento sí es más efectivo que el tratamiento actual.
+        p #[strong Hipótesis nula (H₀):] es la afirmación que se asume verdadera al comienzo de la prueba. Normalmente, la hipótesis nula es una afirmación de "no efecto" o "no diferencia". Por ejemplo, en un estudio médico, la hipótesis nula podría ser que un nuevo tratamiento no es más efectivo que el tratamiento actual.
+        p #[strong Hipótesis alternativa (H₁):] es la afirmación opuesta a la hipótesis nula. Es lo que el investigador espera demostrar. En el caso del tratamiento médico, la hipótesis alternativa sería que el nuevo tratamiento sí es más efectivo que el tratamiento actual.
         .bgi.p-4.brad.mb-3
           b Proceso de prueba de hipótesis:
           ol.lista-ol--cuadro.fa-ul.px-2.mb-0
@@ -177,18 +174,14 @@
               span
                 b Decisión: 
                 | si la estadística de prueba indica que los resultados son improbables bajo la hipótesis nula (es decir, el valor p es menor que α), se rechaza H₀ en favor de H₁.
-        p 
-          b Valor p:
-          | El valor p es la probabilidad de obtener un resultado igual o más extremo que el observado, suponiendo que la hipótesis nula es cierta. Si el valor p es menor que el nivel de significancia se concluye que hay suficiente evidencia para rechazar la hipótesis nula.
-    p 
-      b Ejemplo: 
-      |  si una empresa está probando si una nueva campaña publicitaria mejora las ventas en comparación con la campaña anterior, la hipótesis nula podría ser que no hay diferencia en las ventas. Al realizar la prueba de hipótesis, si el valor p es menor que 0.05, la empresa puede concluir que la nueva campaña es significativamente más efectiva.
+        p #[strong Valor p:] el valor p es la probabilidad de obtener un resultado igual o más extremo que el observado, suponiendo que la hipótesis nula es cierta. Si el valor p es menor que el nivel de significancia se concluye que hay suficiente evidencia para rechazar la hipótesis nula.
+    p #[strong Ejemplo:] si una empresa está probando si una nueva campaña publicitaria mejora las ventas en comparación con la campaña anterior, la hipótesis nula podría ser que no hay diferencia en las ventas. Al realizar la prueba de hipótesis, si el valor p es menor que 0.05, la empresa puede concluir que la nueva campaña es significativamente más efectiva.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2
         .bg17.p-4.brad
           b Ejemplo: prueba de hipótesis
-          p.mt-3 Supungamos que queremos probar si el salario promedio de los empleados en una empresa es mayor a $ 50.000. Tenemos una muestra de 30 empleados con una media de x = 52,000 y una desviación estándar de &#8709; = 8,000
+          p.mt-3 Supongamos que queremos probar si el salario promedio de los empleados en una empresa es mayor a $ 50.000. Tenemos una muestra de 30 empleados con una media de x = 52,000 y una desviación estándar de &#8709; = 8,000
           p
             b Hipótesis nula (H<sub>0</sub>):
             |  el salario promedio es &#181; = 50,000

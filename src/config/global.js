@@ -473,40 +473,59 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Batanero, C. (2001). Didáctica de la estadística.',
-      link: '',
-    },
-    {
-      referencia: 'Cochran, W. G. (1980). Técnicas de muestreo (3.ª ed.).',
-      link: '',
+      referencia:
+        'Batanero, C. (2001). Didáctica de la estadística. Granada: Universidad de Granada.',
+      link:
+        'https://www.ugr.es/~batanero/pages/ARTICULOS/didacticaestadistica.pdf',
     },
     {
       referencia:
-        'Hernández Sampieri, R., Fernández Collado, C., & Baptista Lucio, P. (2014). Metodología de la investigación (6.ª ed.).',
-      link: '',
-    },
-    {
-      referencia: 'Martínez, J. (2004). Muestreo estadístico.',
-      link: '',
+        'Cochran, W. G. (1980). Técnicas de muestreo (3.ª ed.). México: CECSA.',
+      link:
+        'https://es.z-lib.gs/book/22432056/6c4faa/técnicas-de-muestreo.html?dsource=recommend',
     },
     {
       referencia:
-        'Montgomery, D. C., & Runger, G. C. (2015). Probabilidad y estadística aplicada a la ingeniería (5.ª ed.).',
-      link: '',
+        'Hernández Sampieri, R., Fernández Collado, C., & Baptista Lucio, P. (2014). Metodología de la investigación (6.ª ed.). México: McGraw-Hill.',
+      link:
+        'https://www.paginaspersonales.unam.mx/files/981/Investigacion_sampieri_6a_ED.pdf',
     },
     {
       referencia:
-        'Scheaffer, R. L., Mendenhall, W., & Ott, R. L. (2007). Elementos de muestreo (6.ª ed.).',
-      link: '',
-    },
-    {
-      referencia: 'Triola, M. F. (2018). Estadística (12.ª ed.).',
-      link: '',
+        'Kelmansky, D. M. (2009). Estadística para todos. Ministerio de Educación de la Nación, Instituto Nacional de Educación Tecnológica.',
+      link: 'http://www.bnm.me.gov.ar/giga1/documentos/EL001858.pdf',
     },
     {
       referencia:
-        'Walpole, R. E., Myers, R. H., Myers, S. L., & Ye, K. (2012). Probabilidad y estadística para ingenieros (9.ª ed.).',
-      link: '',
+        'Mendenhall, W., Beaver, R. J., & Beaver, B. M. (2016). Introducción a la probabilidad y estadística (13. ed.). Cengage Learning Latinoamérica.',
+      link:
+        'https://www.fcfm.buap.mx/jzacarias/cursos/estad2/libros/book5e2.pdf',
+    },
+    {
+      referencia:
+        'Obando-Bastidas, J y Castellanos Sánchez, M. (2021). Gráficos estadísticos: guía práctica para estadística descriptiva. Universidad Cooperativa de Colombia, Facultad de Ciencias Económicas, Administrativas y Contables, Contaduría Pública, Villavicencio.',
+      link: 'https://doi.org/10.16925/gcgp.32',
+    },
+    {
+      referencia:
+        'Panteleeva, O. V. (2005). Fundamentos de Probabilidad y Estadística. UAEM.',
+      link:
+        'https://books.google.com.ec/books?id=cbdromy2XrwC&printsec=frontcover#v=onepage&q&f=false',
+    },
+    {
+      referencia:
+        'Ramos Calcina, A., Villasante Saravia, F. H., & Álvarez Rozas, T. P. (2023). Estadística descriptiva con R (2ª ed.). Universidad Nacional del Altiplano.',
+      link: 'https://repositorio.unap.edu.pe/handle/20.500.140282/20293',
+    },
+    {
+      referencia:
+        'Salazar, C., & Santiago del Castillo, G. (2018). Fundamentos básicos de estadística.',
+      link: 'http://librodigital.sangregorio.edu.ec/librosusgp/B0009.pdf',
+    },
+    {
+      referencia:
+        'Triola, M. F. (2018). Estadística (12. ed.). Pearson Educación.',
+      link: 'http://librodigital.sangregorio.edu.ec/librosusgp/B0038.pdf',
     },
   ],
 }

@@ -32,52 +32,57 @@
     Separador
     #t_1_2.titulo-segundo.color-acento-botones
       h2 1.2	Clasificación de la estadística: descriptiva e inferencial
-    p
-      | La estadística se divide en dos ramas principales: la #[b estadística descriptiva] y la #[b estadística inferencial].
+
+    p La estadística se divide en dos ramas principales: la #[b estadística descriptiva] y la #[b estadística inferencial].
+
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-11
         .titulo-sexto.color-acento-contenido.aos-init.mt-5
           h5 Tabla 1. 
           span Clasificación de la estadística
-        table.table
-          thead
-            tr.text-center
-              th.bg-head.py-3 Rama de la Estadística
-              th.bg-head.py-3 Descripción
-              th.bg-head.py-3 Objetivo
-              th.bg-head.py-3 Herramientas Principales
-              th.bg-head.py-3 Resultados
-          tbody
-            tr
-              th Estadística Descriptiva 
-              td
-                p Se refiere a los métodos que permiten resumir y describir las características principales de un conjunto de datos.
-                p No hace generalizaciones o inferencias más allá de los datos analizados; se limita a describir lo que se observa.
-              td Resumir y describir datos de una muestra o población.
-              td 
-                p - #[b Medidas de tendencia central]: media, mediana, moda.
-                p - #[b Medidas de dispersión]: desviación estándar, varianza.
-                p - #[b Representaciones gráficas]: histogramas, diagramas de barras, tablas de frecuencias.
-              td Proporciona información exacta y precisa sobre los datos en cuestión.
-            tr
-              th Estadística Inferencial
-              td Va más allá de la descripción de los datos y se centra en hacer generalizaciones sobre una población a partir de una muestra. Utiliza métodos probabilísticos para estimar parámetros poblacionales, realizar pruebas de hipótesis y hacer predicciones.
-              td Hacer generalizaciones y predicciones sobre la población a partir de una muestra representativa.
-              td
-                p - Intervalos de confianza.
-                p - Pruebas de hipótesis.
-                p - Estimación de parámetros.
+        .table-responsive
+          table.table
+            thead
+              tr.text-center
+                th.bg-head.py-3(style="width: 200px;") Rama de la Estadística
+                th.bg-head.py-3(style="width: 300px;") Descripción
+                th.bg-head.py-3(style="width: 200px;") Objetivo
+                th.bg-head.py-3(style="width: 200px;") Herramientas Principales
+                th.bg-head.py-3(style="width: 200px;") Resultados
+            tbody
+              tr
+                th Estadística Descriptiva 
+                td
+                  p Se refiere a los métodos que permiten resumir y describir las características principales de un conjunto de datos.
+                  p No hace generalizaciones o inferencias más allá de los datos analizados; se limita a describir lo que se observa.
+                td Resumir y describir datos de una muestra o población.
+                td 
+                  p - #[b Medidas de tendencia central]: media, mediana, moda.
+                  p - #[b Medidas de dispersión]: desviación estándar, varianza.
+                  p - #[b Representaciones gráficas]: histogramas, diagramas de barras, tablas de frecuencias.
+                td Proporciona información exacta y precisa sobre los datos en cuestión.
+              tr
+                th Estadística Inferencial
+                td Va más allá de la descripción de los datos y se centra en hacer generalizaciones sobre una población a partir de una muestra. Utiliza métodos probabilísticos para estimar parámetros poblacionales, realizar pruebas de hipótesis y hacer predicciones.
+                td Hacer generalizaciones y predicciones sobre la población a partir de una muestra representativa.
+                td
+                  p - Intervalos de confianza.
+                  p - Pruebas de hipótesis.
+                  p - Estimación de parámetros.
 
-              td Trabaja con probabilidades e incertidumbre, ya que las conclusiones se basan en una muestra y no en toda la población. Permite hacer predicciones y generalizaciones aplicables a la población en general
+                td Trabaja con probabilidades e incertidumbre, ya que las conclusiones se basan en una muestra y no en toda la población. Permite hacer predicciones y generalizaciones aplicables a la población en general
         figcaption.border.border-secundary.border-start-0.border-end-0.border-2.mt-2.mb-4
           p.text-center.text-dark.mb-0 Fuente: OIT, 2024.
+        
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
         .bgi.p-4.brad
-          p #[b Ejemplo: Diferencia entre estadística descriptiva e inferencial]
+          p #[b Ejemplo: diferencia entre estadística descriptiva e inferencial]
           p Supongamos que estamos analizando las edades de los empleados en una empresa y tenemos los siguientes datos de una muestra de 10 empleados:
           p Edades = { 25, 30, 35, 40, 45, 50, 55, 60, 65, 70 }
           p #[b Estadística descriptiva]: podemos calcular medidas como la media y la desviación estándar de la muestra.
           img.img-t.img-a(src='@/assets/template/images/t1/4.png')
-          p.mt-4 #[b Estadística inferencial]: si tomamos una muestra similar de otra empresa con 100 empleados, podemos usar un intervalo de confianza para estimar la medida de la población de empleados.
+          p.mt-4 #[b Estadística inferencial]: si tomamos una muestra similar de otra empresa con 100 empleados, podemos usar un intervalo de confianza para estimar la media de la población de empleados.
           p Si la media muestral es = 47.5, con un error de #[i SE] - 15.14 / = 4.78, el intervalo de confianza del 95 % sería:
           p.text-center #[i IC = 47.5 + 1.96 . 4.79 = ( 38.12, 56.88)]
           p Esto significa que con un 95 % de confianza, la edad promedio de la población de empleados está entre 38.12 y 56.88 años.
@@ -87,7 +92,7 @@
       h2 1.3	Aplicaciones prácticas de la estadística en la recolección de datos
     p La estadística se aplica en numerosas áreas del conocimiento y en diversas situaciones del mundo real. Algunas de sus aplicaciones más comunes incluyen:
     .row.justify-content-center.mb-4 
-      .col-lg-3.my-3
+      .col-lg-3.my-3.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/template/images/t1/5.png', alt='')          
       .col-lg-9.my-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")

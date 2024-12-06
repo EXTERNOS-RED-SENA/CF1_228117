@@ -131,7 +131,8 @@
                 i.fas.fa-check.v1
                 span
                   b Actualidad:
-                  |  los datos cuantitativos se utilizan para calcular tendencias centrales (media, mediana, moda), medidas de dispersión (desviación estándar, varianza), y para realizar pruebas de hipótesis o análisis de regresión.
+                  |  evaluar si los datos son recientes o si han quedado obsoletos. Datos más recientes son preferibles, especialmente en estudios que dependen de información actual.
+
               li.mb-3
                 i.fas.fa-check.v1
                 span
@@ -152,7 +153,7 @@
                 i.fas.fa-check.v1
                 span
                   b Exactitud:
-                  |  Se refiere a qué tan bien los datos reflejan la realidad que se pretende medir. Las definiciones utilizadas en la recolección de datos deben ser claras y adecuadas.
+                  |  se refiere a qué tan bien los datos reflejan la realidad que se pretende medir. Las definiciones utilizadas en la recolección de datos deben ser claras y adecuadas.
               li.mb-3
                 i.fas.fa-check.v1
                 span
@@ -180,14 +181,10 @@
               ul.lista-ul--color.fa-ul
                 li.mb-3
                   i.fas.fa-check.v1
-                  span
-                    b Preguntas cerradas:
-                    |  ofrecen opciones de respuesta predefinidas y son fáciles de analizar.
+                  span #[strong Preguntas cerradas:] ofrecen opciones de respuesta predefinidas y son fáciles de analizar.
                 li.mb-3
                   i.fas.fa-check.v1
-                  span
-                    b Preguntas abiertas:
-                    | permiten respuestas más detalladas, aunque son más difíciles de procesar y analizar.
+                  span #[strong Preguntas abiertas:] permiten respuestas más detalladas, aunque son más difíciles de procesar y analizar.
 
           .row.justify-content-center(titulo="Control de calidad")
             .col-lg-12.my-3
@@ -328,10 +325,8 @@
       .col-lg-10.my-3
         .row.justify-content-center.align-items-center.bg13.p-4.brad.mb-5
           .col-lg-7
-            p.mb-0
-              b Ejemplo: 
-              |  evaluación de fuentes de datos.
-            p Supungamos que estamos utilizando las siguientes fuentes de datos para un estudio:
+            p.mb-4 #[strong Ejemplo:] evaluación de fuentes de datos.
+            p Supongamos que estamos utilizando las siguientes fuentes de datos para un estudio:
             ol.lista-ol--cuadro.fa-ul.px-2
               li
                 .lista-ol--cuadro__vineta

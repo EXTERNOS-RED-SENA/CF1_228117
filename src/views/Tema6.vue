@@ -24,7 +24,7 @@
               .col-lg-6.my-2
                 h5 Requerimientos cuantitativos
                 p Se refieren a datos numéricos que pueden ser medidos y expresados en números. Estos incluyen, por ejemplo, medidas de ingresos, peso, altura, cantidades vendidas, etc. Los datos cuantitativos son esenciales para realizar análisis numéricos y estadísticos que permitan obtener resultados precisos.
-                p Ejemplo: En un estudio de ventas, los datos requeridos pueden incluir la cantidad de unidades vendidas, los ingresos generados, o el precio promedio por unidad.
+                p Ejemplo: en un estudio de ventas, los datos requeridos pueden incluir la cantidad de unidades vendidas, los ingresos generados, o el precio promedio por unidad.
 
               .col-lg-5.my-2 
                 img.img-a.img-t(src='@/assets/template/images/t6/2.png', alt='')   
@@ -32,14 +32,14 @@
               .col-lg-6.my-2
                 h5 Requerimientos cualitativos
                 p Se refieren a datos no numéricos que describen características o atributos. Estos datos suelen ser categóricos y se utilizan para clasificar o agrupar elementos. Incluyen variables como género, opiniones, preferencias, tipos de productos, entre otros.
-                p Ejemplo: En una encuesta de satisfacción del cliente, los datos cualitativos pueden incluir comentarios sobre la experiencia de compra o la clasificación de los productos en categorías de satisfacción (muy satisfecho, satisfecho, insatisfecho).
+                p Ejemplo: en una encuesta de satisfacción del cliente, los datos cualitativos pueden incluir comentarios sobre la experiencia de compra o la clasificación de los productos en categorías de satisfacción (muy satisfecho, satisfecho, insatisfecho).
               .col-lg-5.my-2 
                 img.img-a.img-t(src='@/assets/template/images/t6/3.png', alt='')  
             .row.justify-content-center
               .col-lg-6.my-2
                 h5 Requerimientos temporales
                 p Establecen la necesidad de recolectar datos en intervalos de tiempo específicos o durante un periodo particular. Los datos temporales son importantes cuando se quiere analizar cambios o tendencias a lo largo del tiempo.
-                p Ejemplo: Un estudio sobre el comportamiento de los consumidores puede requerir datos de ventas mensuales durante los últimos cinco años para identificar patrones estacionales.
+                p Ejemplo: un estudio sobre el comportamiento de los consumidores puede requerir datos de ventas mensuales durante los últimos cinco años para identificar patrones estacionales.
 
               .col-lg-5.my-2 
                 img.img-a.img-t(src='@/assets/template/images/t6/4.png', alt='')  
@@ -47,7 +47,7 @@
               .col-lg-6.my-2
                 h5 Requerimientos geográficos
                 p Se refieren a la necesidad de recolectar datos en una ubicación o conjunto de ubicaciones específicas. Los estudios geográficos o regionales necesitan definir claramente las áreas de donde se tomarán los datos.
-                p Ejemplo: Un análisis de mercado puede requerir datos específicos de ventas de diferentes ciudades o regiones para comparar los comportamientos de compra en diversas zonas geográficas.
+                p Ejemplo: un análisis de mercado puede requerir datos específicos de ventas de diferentes ciudades o regiones para comparar los comportamientos de compra en diversas zonas geográficas.
 
               .col-lg-5.my-2 
                 img.img-a.img-t(src='@/assets/template/images/t6/5.png', alt='')
@@ -208,7 +208,7 @@
         img.img-a.img-t(src='@/assets/template/images/t6/12.png' alt='')
       .col-lg-7
         .bg17.p-4.brad
-          b Ejemplo: Recolección de datos cualitativos y cuantitativos.
+          b Ejemplo: recolección de datos cualitativos y cuantitativos.
           p.mt-3 En un estudio sobre hábitos alimenticios, definimos los siguientes requerimientos.
           p.mb-0
             b Datos cuantitativos:
@@ -216,7 +216,7 @@
               li
                 i.fas.fa-check.v1
                 span
-                  | Ingreso mensual de los encuestados ( en dolares )
+                  | Ingreso mensual de los encuestados (en dolares).
               li
                 i.fas.fa-check.v1
                 span
@@ -227,13 +227,13 @@
               li
                 i.fas.fa-check.v1
                 span
-                  | Preferencias alimenticias ( vegetariano, carnívoro, etc.).
+                  | Preferencias alimenticias (vegetariano, carnívoro, etc.).
               li
                 i.fas.fa-check.v1
                 span
-                  | Satisfacción con los hábitos alimenticios ( alta, media, baja )
+                  | Satisfacción con los hábitos alimenticios (alta, media, baja).
             
-          p Al definir estos requerimientos, garantizamos que los datos recolectados sean relevantes y suficientes para analizar los hábitos alimentarios y su relación con los ingresos y satisfacción.
+          p Al definir estos requerimientos, garantizamos que los datos recolectados sean relevantes y suficientes para analizar los hábitos alimenticios y su relación con los ingresos y satisfacción.
       
 
 </template>

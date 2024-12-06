@@ -13,7 +13,7 @@
         .col-lg-8.my-3.order-1
           .brad.p-3.mb-4
             p.mb-0
-              | En el ámbito del análisis de datos, contar con fuentes confiables y aplicar técnicas adecuadas de recolección de información es crucial para obtener resultados precisos y valiosos. La calidad de los datos recopilados y su adecuada selección determinan en gran medida la utilidad y precisión de los análisis posteriores, ya que datos incompletos, sesgados o mal interpretados pueden llevar a conclusiones erróneas o poco útiles.
+              | En el ámbito del análisis de datos, contar con fuentes confiables y aplicar técnicas adecuadas de recolección de información es crucial para obtener resultados precisos y valiosos. La calidad de los datos recopilados y su adecuada selección determinan en gran medida la utilidad y precisión de los análisis posteriores, ya que datos incompletos, sesgados o malinterpretados pueden llevar a conclusiones erróneas o poco útiles.
           .row.justify-content-center.align-items-center.bg8.mb-4
             .col-lg-4.col-8.mb-lg-0.mb-4.h-100
               img.img-fluid(src='@/assets/template/images/cf1/2.png' alt='')
@@ -39,7 +39,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="1236" height="695" src="https://www.youtube.com/embed/H-YTgpFnjnU" title="Fuentes y técnicas de recolección de datos para análisis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+              iframe(width="1236" height="695" src="https://www.youtube.com/embed/gYb2piVtFHY?si=JrOknn-QVhU1Ho3g" title="Fuentes y técnicas de recolección de datos para análisis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
   
   </template>
 

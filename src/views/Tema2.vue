@@ -11,31 +11,29 @@
     #t_2_1.titulo-segundo.color-acento-botones
       h2 2.1	Diferencias entre población y muestra
     .row.justify-content-center.mb-5
-      .col-lg-5
-        .bg15.p-4.brad.h-100
+      .col-lg-5.mb-4.mb-lg-0
+        .bg31.p-4.brad.h-100
           img.img-t.img-a.mb-4(src='@/assets/template/images/t2/1.svg')
-          .row.justify-content-center.mb-4
-            p.col-lg-auto.mb-2.bg11.px-3
-              b
-                | Población
-          p.text-center
+          .text-center
+            .d-inline-block.px-4.py-2.mb-3.bg11 
+              h5.text-center.mb-0 Población
+          p.mb-3
             | En estadística, una población es el conjunto completo de individuos, objetos, eventos o medidas de interés sobre los que se desea obtener información. La población puede ser finita (como el número total de estudiantes en una universidad) o infinita (como el número de tiradas de un dado en un experimento).
           p 
-            | Ejemplo: Si se desea investigar el comportamiento de compra de todos los consumidores de un país, todos los consumidores registrados conforman la población.
-      .col-lg-5
-        .bg15.p-4.brad.h-100
+            | Ejemplo: si se desea investigar el comportamiento de compra de todos los consumidores de un país, todos los consumidores registrados conforman la población.
+      .col-lg-5.mb-4.mb-lg-0
+        .bg31.p-4.brad.h-100
           img.img-t.img-a.mb-4(src='@/assets/template/images/t2/2.svg')
-          .row.justify-content-center.mb-4
-            p.col-lg-auto.mb-2.bg11.px-3
-              b
-                | Muestra
-          p.text-center
+          .text-center
+            .d-inline-block.px-4.py-2.mb-3.bg11 
+              h5.text-center.mb-0 Muestra
+          p
             | Una muestra es un subconjunto de la población seleccionada para ser estudiada. Debido a que, en la mayoría de los casos, es imposible o impráctico estudiar a toda la población, se selecciona una muestra representativa para extraer conclusiones. Una muestra adecuada debe reflejar las características de la población para que los resultados puedan ser generalizados.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
         .bg18.p-4.brad.h-100
-          p 
-            | #[b Ejemplo]: En un estudio sobre el comportamiento de compra, un grupo de 1,000 consumidores seleccionados al azar podría ser la muestra de una población de millones de consumidores.
+          p.mb-0
+            | #[b Ejemplo]: en un estudio sobre el comportamiento de compra, un grupo de 1,000 consumidores seleccionados al azar podría ser la muestra de una población de millones de consumidores.
 
     Separador 
     #t_2_2.titulo-segundo.color-acento-botones
@@ -134,7 +132,7 @@
             </div>
             <div class="eq-c">
               <div class="fraction">
-                <span class="fup">400</span>
+                <span class="fup">100</span>
                 <span class="bar">/</span>
                 <span class="fdn">500</span>
               </div>

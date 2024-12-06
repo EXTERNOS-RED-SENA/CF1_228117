@@ -192,10 +192,10 @@
                 |  muestreo aleatorio simple y sistemático.
               p 
                 b Muestreo aleatorio simple:
-                |  seleccionamos una muestra de 5 empleados de una población de 20 empleados utilizando un generador de números aleatorios. Supungamos que los números seleccionados son: 3, 7, 9, 14, 18.
+                |  seleccionamos una muestra de 5 empleados de una población de 20 empleados utilizando un generador de números aleatorios. Supongamos que los números seleccionados son: 3, 7, 9, 14, 18.
               p
                 b Muestreo sistemático:
-                | de la misma población de 20 empleados, seleccionamos un empleado cada 4 (comenzando con el empleado 3). Los empleados seleccionados serían: 3, 7, 11, 15, 19.
+                | de la misma población de 20 empleados, seleccionamos un empleado cada 4 (comenzando con el empleado 3). Los empleados seleccionados serán: 3, 7, 11, 15, 19.
               p Esto asegura una distribución uniforme en la selección de empleados.
       .col-lg-4.my-3.order-lg-2.order-1
         img.img-a.img-t(src='@/assets/template/images/t4/7.svg', alt='') 

@@ -26,7 +26,7 @@
       .row.justify-content-center
         .col-lg-10.mb-5.col-8.mb-lg-0.mb-4.bgs.brad.p-5
           figure
-            img(src="@/assets/template/images/cf1/sintesis.svg", alt="En la imagen se mencionan los principales temas tratados sobre la limpieza y transformación de datos —como sus fundamentos, importación, técnicas, herramientas y prácticas— y algunos subtemas que los integran.")
+            img(src="@/assets/curso/temas/sintesis.svg", alt="La Figura 3 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre la limpieza y transformación de datos —como sus fundamentos, importación, técnicas, herramientas y prácticas— y algunos subtemas que los integran.")
         .col-auto
           .mt-4
             a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")

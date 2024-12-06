@@ -86,23 +86,24 @@
             p Las encuestas son uno de los métodos más comunes para recolectar datos. Consisten en formular una serie de preguntas estandarizadas a un grupo de personas (la muestra) con el fin de obtener información cuantitativa o cualitativa. Las encuestas pueden ser presenciales, telefónicas o en línea. Una de sus ventajas es que permiten obtener datos de una gran cantidad de personas en un periodo corto de tiempo.
             p Tipos de encuestas:
             .bgi.p-1.brad.mb-4
-              ul.lista-ul--color.fa-ul
-                  li.mb-0
-                    i.fas.fa-check.v1
-                    span
-                      b Encuestas estructuradas:
-                      |  tienen preguntas cerradas con respuestas predefinidas.
-                  li.mb-0
-                    i.fas.fa-check.v1
-                    span
-                      b Encuestas semiestructuradas:
-                      |  combinan preguntas cerradas y abiertas, ofreciendo mayor flexibilidad.
+              .p-4
+                ul.lista-ul--color.fa-ul.mb-0
+                    li.mb-0
+                      i.fas.fa-check.v1
+                      span
+                        b Encuestas estructuradas:
+                        |  tienen preguntas cerradas con respuestas predefinidas.
+                    li.mb-0
+                      i.fas.fa-check.v1
+                      span
+                        b Encuestas semiestructuradas:
+                        |  combinan preguntas cerradas y abiertas, ofreciendo mayor flexibilidad.
         .row.justify-content-center.align-items-center
           .col-lg-12
             .titulo.mb-4(data-aos="flip-up")
               h5.mb-0.p-1 Observación
             p Este método implica la recolección de datos a través de la observación directa de comportamientos, eventos o fenómenos. La observación puede ser participante (el investigador forma parte del entorno que está observando) o no participante (el investigador observa desde fuera sin interactuar con el entorno). Es un método útil cuando se necesita estudiar fenómenos en su contexto natural.
-            p Ejemplo: En estudios de comportamiento animal, los investigadores pueden observar el comportamiento de una población de animales en su hábitat natural.
+            p Ejemplo: en estudios de comportamiento animal, los investigadores pueden observar el comportamiento de una población de animales en su hábitat natural.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bg28.p-4.brad
@@ -113,7 +114,7 @@
               .titulo.mb-4(data-aos="flip-up")
                 h5.mb-0.p-1 Experimentación
               p En un experimento, el investigador manipula una o más variables independientes para observar el efecto sobre una variable dependiente. Este método permite establecer relaciones de causa y efecto. Los experimentos suelen realizarse en entornos controlados, como laboratorios, para minimizar la influencia de variables externas.
-              P Ejemplo: En un estudio de un nuevo medicamento, los investigadores podrían dar el medicamento a un grupo de pacientes y un placebo a otro grupo, observando las diferencias en los resultados de salud entre ambos grupos.
+              P Ejemplo: en un estudio de un nuevo medicamento, los investigadores podrían dar el medicamento a un grupo de pacientes y un placebo a otro grupo, observando las diferencias en los resultados de salud entre ambos grupos.
     Separador 
     #t_3_2.titulo-segundo.color-acento-botones
       h2 3.2	Definición y objetivos de cada fase del proceso estadístico
@@ -173,15 +174,11 @@
           .row.justify-content-center(titulo="Revisión de datos")
             .col-lg-12.my-3
               p Después de la recolección, es importante revisar los datos para identificar valores atípicos o inconsistencias que podrían indicar errores en la recolección.
-              p 
-                b Ejemplo:
-                | proceso estadístico para una encuesta de satisfacción.
+              p #[strong Ejemplo:] proceso estadístico para una encuesta de satisfacción.
               p Una empresa realiza una encuesta de satisfacción a sus clientes y obtiene los siguientes resultados sobre una escala de 1 a 10 (donde 1 es muy insatisfecho y 10 es muy satisfecho):
               p Respuesta = { 7, 8, 6, 9, 7, 8, 5, 7, 6, 9 }
-              p
-                b Fase de recolección de datos:
-                | se recolecta las respuestas de los clientes mediante un formulario en línea.
-              p Fase de análisis
+              p #[strong Fase de recolección de datos:] se recolecta las respuestas de los clientes mediante un formulario en línea.
+              p #[strong Fase de análisis:]
               .tarjeta.text-center
                 <div class="eq-c">
                   <span> Media: x = </span>
@@ -195,9 +192,7 @@
               </div>
               
               p Desviación estándar: o = 1.35
-              p
-                b Fase de interpretación:
-                | La medida de satisfacción es de 7.2, lo que indica que, en general, los clientes están satisfechos. Sin embargo, la desviación estándar muestra cierta variabilidad en las respuestas, por lo que algunos clientes están menos satisfechos.
+              p #[strong Fase de interpretación:] la media de satisfacción es de 7.2, lo que indica que, en general, los clientes están satisfechos. Sin embargo, la desviación estándar muestra cierta variabilidad en las respuestas, por lo que algunos clientes están menos satisfechos.
 
 </template>
 

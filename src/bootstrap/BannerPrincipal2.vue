@@ -9,7 +9,7 @@
           h1.mb-0(v-html="globalData.componenteFormativo")
         .banner-principal__descripcion
           p.mb-0(v-html="globalData.descripcionCurso")
-        .banner-principal__accion
+        .banner-principal__accion.mb-3
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right

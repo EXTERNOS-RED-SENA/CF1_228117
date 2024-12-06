@@ -116,7 +116,7 @@
               p 
                 b Error estándar:
                 |  el error estándar disminuye a medida que el tamaño de la muestra aumenta. Un error estándar menor implica una mayor precisión en las estimaciones realizadas sobre la población.
-              p Ejemplo: Si se estima el ingreso promedio de una población con una muestra pequeña, el intervalo de confianza será más amplio y menos preciso. Con una muestra más grande, el intervalo se estrechará, lo que indicará una estimación más precisa del parámetro poblacional.
+              p Ejemplo: si se estima el ingreso promedio de una población con una muestra pequeña, el intervalo de confianza será más amplio y menos preciso. Con una muestra más grande, el intervalo se estrechará, lo que indicará una estimación más precisa del parámetro poblacional.
               
         .bg19.brad.px-4.p-3.my-3
           .row
@@ -145,16 +145,10 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         p Una vez que se ha seleccionado una muestra, es fundamental validar su representatividad para garantizar que los resultados del estudio puedan generalizarse a la población completa. Existen varias técnicas para evaluar la representatividad de una muestra:
-        p 
-          b Comparación con la población
-          |  comparar las características clave de la muestra (como edad, género, nivel educativo) con las de la población completa. Si las características de la muestra se alinean con las de la población, es más probable que sea representativa.
-        p 
-          b Ejemplo: 
-          |  en un estudio sobre hábitos de consumo en una ciudad, la muestra debe reflejar la distribución de edades, niveles de ingresos y otros factores demográficos de la población total de esa ciudad.
-        .bg9.brad.px-4.p-3.my-3
-          p 
-            b Pruebas de hipótesis
-            |  las pruebas estadísticas pueden utilizarse para evaluar si las características de la muestra son significativamente diferentes de las características conocidas de la población. Si no se detectan diferencias significativas, la muestra puede considerarse representativa.
+        p #[strong Comparación con la población:] comparar las características clave de la muestra (como edad, género, nivel educativo) con las de la población completa. Si las características de la muestra se alinean con las de la población, es más probable que sea representativa.
+        p #[strong Ejemplo:] en un estudio sobre hábitos de consumo en una ciudad, la muestra debe reflejar la distribución de edades, niveles de ingresos y otros factores demográficos de la población total de esa ciudad.
+        .bg9.brad.px-4.p-3.my-4
+          p.mb-0 #[strong Pruebas de hipótesis:] las pruebas estadísticas pueden utilizarse para evaluar si las características de la muestra son significativamente diferentes de las características conocidas de la población. Si no se detectan diferencias significativas, la muestra puede considerarse representativa.
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-2
             img.img-a.img-t(src='@/assets/template/images/t8/6.svg' alt='')
@@ -174,7 +168,7 @@
         img.img-a.img-t(src='@/assets/template/images/t8/7.png' alt='')
       .col-lg-7
         .bg17.p-4.brad
-          b Ejemplo: Cálculo del tamaño de la muestra.
+          b Ejemplo: cálculo del tamaño de la muestra.
           p.mt-3 Queremos estimar el ingreso promedio de una ciudad con un margen de error de $ 500 y un nivel de confianza del 95 %. Sabemos que la desviación estándar del ingreso en estudios anteriores es de $ 4,000.
           p El tamaño de la muestra se calcula usando la fórmula para el tamaño de muestra de una media:
           p.text-center
